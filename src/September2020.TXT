@@ -1,0 +1,89 @@
+
+Mershab Issadien
+Computer Scientist
+
+Richmond Hill, Ontario L4E 4C1
+Phone: 647 284 8025
+E-Mail: mershab99@gmail.com
+
+Skills
+
+Java  
+
+Maven  
+
+REST API  
+
+MongoDB  
+
+JSON for data modelling  
+
+Docker  
+
+Python  
+
+SQL  
+
+C#  
+
+Arduino  
+
+API  
+
+Data modelling  
+
+Electronics  
+
+Java  
+
+C#  
+
+Teamwork  
+
+Professional Summary
+
+Lifelong learner. Versed in Back-end web, Java, REST API, C# application, and Android application development with an intermediate knowledge of SQL and its various integration tactics. Versed in Docker deployment and microservices model. Avid attendee of Hackathons far and wide.
+
+Work History
+
+May 2019 to August 2019
+Home Depot 
+Sales Associate/Inventory Associate    
+
+Developed teamwork skills as a sales associate, and learned the sales model of Home Depot through customer interaction.
+Learned the inventory system (SAP powered) as well as provided bug feedback for the software development team.
+Projects
+Praizl
+Real estate appraisal REST based java powered site.
+Using Docker for deployment
+Ryerson Climate Hack-To-Action Hackathon
+Developed a functional android application with a SQL backend within 24 hours.
+
+Education
+
+University Of Ottawa Ottawa
+Associate of Applied Science Honours Computer Science 
+
+Elected Captain of Dota 2 B Team
+
+Projects
+
+Praizl
+
+REST API based Java powerd real estate analytics/appraisal site using Docker for deployment.
+
+Ryerson Climate Hack-To-Action Hackathon
+
+Developed a functional android application with a SQL backend within 24 hours.
+
+YRDSB QUEST 2015
+
+Worked in interdisciplinary groups to create electronics backed art installations using Raspberry PI and Makey Makey's.
+
+Shevron's that when completed by a human circuit play sounds.
+
+YRDSB QUEST 2016
+
+Worked in interdisciplinary groups to create electronics backed art installations using Arduino and solenoids.
+
+Array of flowers that individually opened up based on proximity. Developed for mental health awareness.

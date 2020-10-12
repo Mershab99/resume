@@ -1,0 +1,217 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{0.5in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://google.com/}{\Large Mershab Issadien}} & Email : \href{mailto:mershab99@gmail.com}{mershab99@gmail.com}\\
+  \href& Mobile : +1-647-284-8025 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Ottawa}{Ottawa, ON}
+      {Bsc. Honours Computer Science}{September 2017 - Current}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {The Home Depot}{Richmond Hill, ON}
+      {Sales Associate/Inventory Associate}{May 2019 - August 2019}
+      \resumeItemListStart
+        \resumeItem{General}
+          {Developed teamwork skills as a sales associate, and learned the sales model of Home Depot through customer interaction.}
+        \resumeItem{System Feedback}
+          {Learned the inventory system (SAP powered) as well as provided bug feedback for the software development team.}
+	\resumeItem{Accomplishments}
+	 {Sales Employee of the Month (July), 3x Homer Awards}     
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+      
+% --------Multiple Positions Heading------------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+
+
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+	
+	\resumeSubheading
+	{Praizl}{Richmond Hill, ON}
+	{Full Stack Development}{July 2020 - Present}
+		\resumeItemListStart
+			\resumeItem{General}
+			{Real Estate Analytics/Appraisal web application}
+			\resumeItem{REST API}
+			{Developed a REST API using Dropwizard in Java, Developed User Management Resources for easy front-end communication}
+			\resumeItem{Database}
+			{Built MongoDB data schema + Java-Mongo communication library}
+			\resumeItem{Analytics}
+			{Manipulated datasets using mathematic algorithms}
+			\resumeItem{Deployment}
+			{Used Docker for simple deployment of application + database}
+			\resumeItem{Project Management}
+			{Executed project using SCRUM methodology}
+		\resumeItemListEnd
+
+	\resumeSubheading
+	{Ryerson Climate Hack-To-Action Hackathon}{Toronto, ON}
+	{Team Hackathon Competitor}{May 2016}
+		\resumeItemListStart
+			\resumeItem{General}
+			{Developed a functional Android application with a SQL backend within 24 hours.}
+			\resumeItem{Result}
+			{3rd Place (\$1000 Prize)}
+		\resumeItemListEnd
+	\resumeSubheading
+	{YRDSB QUEST 2016}{Richmond Hill, ON}
+	{Engineering Team Lead}{May 2016}
+		\resumeItemListStart
+			\resumeItem{Leadership}
+			{Lead a team of 3 tech/engineering students and managed a project schedule to finish well within the timeline. }
+			\resumeItem{Project Description}
+			{Array of flowers that individually opened up based on proximity. Developed for mental health awareness.}
+			\resumeItem{General}
+			{Worked in interdisciplinary groups to create electronics backed art installations using Arduino and solenoids.}
+		\resumeItemListEnd
+%	\resumeSubheading
+%	{YRDSB QUEST 2015}{Richmond Hill, ON}
+%	{Engineering Team Lead}{May 2015}
+%		\resumeItemListStart
+%			\resumeItem{Leadership}
+%			{Lead a team of 2 tech/engineering students and managed a project schedule to finish well within the timeline. }
+%			\resumeItem{Project Description}
+%			{Shevrons that when completed by a human circuit play sounds}
+%			\resumeItem{General}
+%			{Worked in interdisciplinary groups to create electronics backed art installations using Raspberry PI and Makey Makey's. .}
+%		\resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%---------REFERENCES--------
+\section{References}
+	\resumeSubHeadingListStart
+		\resumeSubheading
+		{Ramie Raufdeen}{Praizl Project}
+		{Senior Software Engineer at Salesforce}{}
+			\resumeItemListStart
+				\resumeSubItem{Relationship}
+				{Ramie mentored me and supervised my work on the Praizl project.}
+			\resumeItemListEnd
+	\resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+	\item{
+	\textbf{Proficient}{: Java, Maven, REST, MongoDB, JSON for data modelling, Docker, Python, SQL, C\#, Arduino}
+    	}
+	\item{
+		\textbf{Learning}{: InfluxDB, PostgreSQL, Django}
+	}
+  \resumeSubHeadingListEnd
+%---------------------------------------------
+
+%----------HOBBIES
+\section{Hobbies}
+	\resumeSubHeadingListStart
+	\item{
+	\textbf{}{Martial Arts, Fitness, Team Sports, Former Captain of Esports Team (DoTa 2), Fighting game enthusiast }
+	}
+	\resumeSubHeadingListEnd
+\end{document}

@@ -1,0 +1,43 @@
+Skills
+
+Java
+Maven
+REST API
+MongoDB
+JSON for data modelling
+Docker
+Python
+SQL
+C#
+Arduino
+
+Work Experience
+
+Home Depot
+May 2019 - August 2019
+Sales Associate/Inventory Associate
+Developed teamwork skills as a sales associate, and learned the sales model of Home Depot through customer interaction.
+Learned the inventory system (SAP powered) as well as provided bug feedback for the software development team.
+
+Projects
+
+Praizl
+REST API based Java powerd real estate analytics/appraisal site using Docker for deployment.
+
+Ryerson Climate Hack-To-Action Hackathon
+Developed a functional android application with a SQL backend within 24 hours.
+
+YRDSB QUEST 2015
+Worked in interdisciplinary groups to create electronics backed art installations using Raspberry PI and Makey Makey's.
+Shevron's that when completed by a human circuit play sounds.
+YRDSB QUEST 2016
+Worked in interdisciplinary groups to create electronics backed art installations using Arduino and solenoids.
+Array of flowers that individually opened up based on proximity. Developed for mental health awareness.
+
+
+References
+
+Ramie Raufdeen
+Senior Software Engineer at Salesforce
+416-270-7189
+Ramie mentored me and supervised my work on the Praizl project.
