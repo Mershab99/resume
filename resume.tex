@@ -46,7 +46,7 @@
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
+    \textbf{#1}{#2 \vspace{-2pt}}
   }
 }
 
@@ -92,14 +92,15 @@
 
 %--------PROGRAMMING SKILLS------------
 \section{Programming Skills}
-  \resumeSubHeadingListStart
-	\item{
-	\textbf{Proficient}{: Java, Python, REST Frameworks (Flask, Dropwizard), Maven, MongoDB, SQL, Docker, Git version control, C\#, Arduino}
-    	}
-	\item{
-		\textbf{Learning}{: Kubernetes, InfluxDB, PostgreSQL, Django, Node.js}
-	}
-  \resumeSubHeadingListEnd
+  \resumeItemListStart
+  	\resumeItem{Languages/Databases}
+  	{: Java, Python, C\#, Arduino (Processing) MongoDB, SQL, InfluxDB}
+   	\resumeItem{Frameworks/APIs/Tools}
+   	{: Flask, Dropwizard, Django, JSON, Maven, Git VCS, Docker, Kubernetes}
+   	\resumeItem{IDE/OS}{: VS Code, Intellij, Pycharm, CentOS, Ubuntu, Kali Linux}
+  	\resumeItem{Learning}
+  	{: PostgreSQL, Node.js, Jenkins}
+\resumeItemListEnd
 %---------------------------------------------
 
 %-----------EXPERIENCE-----------------
@@ -109,30 +110,32 @@
 	{Praizl Inc.}{Richmond Hill, ON - Remote}
 	{Full-Stack Software Engineer}{July 2020 - Present}
 		\resumeItemListStart
-			\resumeItem{REST API}
-			{Developed a REST APIs using Flask and Dropwizard. Built Resources for endpoints including User Management Resources for easy front-end communication}
-			\resumeItem{Database}
-			{Built MongoDB data schema + Java-Mongo communication library and developed Python data-stores. Built Mongo Caching layer which reduced latency/load time by 40\% Managed and maintained InfluxDB datastore}
-			\resumeItem{Efficiency}
-			{Developed asynchronous job scheduler in Python to reduce HTTP request latency 54\%}	
-			\resumeItem{Analytics}
-			{Developed Recommendation Engine for Real Estate Insights using InfluxDB time-series data, as well as manipulated datasets using mathematical algorithms}
-			\resumeItem{Testing and Validation}
-			{Tested and validated my own code.}
-			\resumeItem{Deployment}
-			{Using Docker and Kubernetes, Deploying and maintaining containers with load balancing (.yaml configurations) }
-			\resumeItem{Project Management}
+			\resumeItem{}
+			{Developed a REST APIs using Flask and Dropwizard. Built Resources including User Management Resources}
+			\resumeItem{}
+			{Built data access layer for Rest API using MongoDB, leveraged both python and mongo libraries}
+			\resumeItem{}
+			{Increased time series retrieval by implementing an in-memory caching layer for MongoDB}
+			\resumeItem{}
+			{Developed asynchronous job scheduler in Python and Java to mitigate expensive HTTP requests}	
+			\resumeItem{}
+			{Integrated Sliced and Diced data with recommendations engine to produce valuable real estate insights}
+			\resumeItem{}
+			{Achieved 80\% code coverage with unit tests.}
+			\resumeItem{}
+			{Helped deployment of backend infrastructure using Docker and Kubernetes}
+			\resumeItem{}
 			{Worked in Agile teams on a Feature-by-Feature basis using SCRUM organizational tools }
-			\resumeItem{Mentorship}
-			{Worked under direct tutelage, and subject to code reviews by ex-Salesforce, ex-Uber, ex-Microsoft software engineers. }
+			\resumeItem{}
+			{Worked under direct supervision and collaborated with ex-Salesforce, ex-Uber, ex-Microsoft software engineers }
 		\resumeItemListEnd
 	    \resumeSubheading
 	      {The Home Depot}{Richmond Hill, ON}
 	      {Sales Associate/Inventory Associate}{May 2019 - August 2019}
 	      \resumeItemListStart
-	        \resumeItem{System Feedback}
+	        \resumeItem{System Feedback }
 	          {Learned the inventory system (SAP powered) as well as provided bug feedback for the software development team. Identified and called out process inefficiencies saving employees an hour a day.}
-		\resumeItem{Accomplishments}
+		\resumeItem{Accomplishments }
 		 {Sales Employee of the Month (July), 3x Homer Awards}     
 \resumeItemListEnd
 
@@ -145,10 +148,10 @@
       {University of Ottawa}{Ottawa, ON}
       {BSc. Honours Computer Science}{September 2017 - Current}
 	\resumeItemListStart
-		\resumeItem{Notable Courses}
-		{Technical Report Writing, Requirements Engineering, Software Engineering, Data Structures and Algorithms, Statistics, Formal Languages}
-	\resumeItem{Clubs/Projects}
-		{Uottawa CSME (Engineering Association). Built the e-mail system for the website uOttawaCSME.ca. UOttawa Dota 2 B Team Captain}	
+		\resumeItem{Notable Courses }
+		{Data Structures and Algorithms, Statistics, Formal Languages, Technical Report Writing, Requirements Engineering, Software Engineering}
+	\resumeItem{Clubs/Projects }
+		{Uottawa CSME (Engineering Association). Built e-mail system for uOttawaCSME.ca. UOttawa Dota 2 B Team Captain}	
 %		\resumeItem{Sports}
 %		{Captain of the UOttawa Dota 2 B Team}
 	\resumeItemListEnd
@@ -166,9 +169,6 @@
 %-------------------------------------------
 
 
-
-
-
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
@@ -176,7 +176,7 @@
 	{Ryerson Climate Hack-To-Action Hackathon}{Toronto, ON}
 	{Team Hackathon Competitor - 3rd Place }{May 2016}
 		\resumeItemListStart
-			\resumeItem{General}
+			\resumeItem{}
 			{Developed a user focused carbon credit Android application with a SQL backend within 24 hours.}
 		\resumeItemListEnd
 %	\resumeSubheading
