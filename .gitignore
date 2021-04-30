@@ -13,3 +13,6 @@
 .*.lb
 *.gz
 *.gz
+copy.sh
+copy.sh
+*.sh
