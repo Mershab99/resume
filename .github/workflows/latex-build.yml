@@ -15,12 +15,12 @@ jobs:
 
       - name: Build LaTeX
         run: |
-          docker build -t latex-resume .
-          docker run --rm -v $PWD:/output latex-resume
+          sudo apt-get update
+          sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
+          pdflatex -interaction=nonstopmode -halt-on-error resume.tex
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
         with:
           name: resume
           path: resume.pdf
-
