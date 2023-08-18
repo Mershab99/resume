@@ -17,6 +17,8 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
+          ls -tahrl
+
           pdflatex -interaction=nonstopmode -halt-on-error resume.tex
 
       - name: Upload Artifact
