@@ -1,0 +1,26 @@
+name: LaTeX Build
+
+on:
+  push:
+    branches:
+      - main  # Adjust the branch name as needed
+
+jobs:
+  compile_resume:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build LaTeX
+        run: |
+          docker build -t latex-resume .
+          docker run --rm -v $PWD:/output latex-resume
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: resume
+          path: resume.pdf
+
