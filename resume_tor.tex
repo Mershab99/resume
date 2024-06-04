@@ -1,0 +1,198 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\setlength{\footskip}{4.08003pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{0.75in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{#2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% HEADING
+\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+  \textbf{{\Huge Mershab Issadien}} & \href{mailto:mershab99@gmail.com}{mershab99@gmail.com}\\
+  +1416-578-5089 &\href{www.linkedin.com/in/mershab-issadien}{linkedin.com/in/mershab-issadien}\\
+  {\small 24 Rollinghill Rd, Richmond Hill, Ontario, Canada, L4E 4C1}
+  %{\small "Any sufficiently advanced technology is indistinguishable from magic."}
+& \href{www.github.com/mershab99}{github.com/mershab99}\\
+  %{\small - Arthur C. Clarke}
+& \href{www.gitlab.com/mershab99}{gitlab.com/mershab99}\\
+\end{tabular*}
+
+% Programming Skills
+\section{Programming Skills}
+\resumeItemListStart
+  \resumeItem{Languages/Databases}{: Python, Java, C\#, Golang (Learning), MongoDB, PostgresSQL, InfluxDB, Redis}
+  \resumeItem{APIs/Tools}{: Kafka, RabbitMQ, DAPR, WebRTC, Helm, YAML, JSON, Stripe}
+  \resumeItem{Frameworks}{: Spring-Boot, FastAPI, Flask, Django, Maven, Faust}
+  \resumeItem{IDE/OS}{: Intellij, NeoVIM, Pycharm, VS Code, CentOS (Rocky Linux), Ubuntu, Linux Mint, Manjaro, Proxmox}
+  \resumeItem{Dev Ops}{: Kubernetes, AWS, GKS, K3s, Gitlab, Ansible, Docker, Jenkins, Gitlab Pipelines (CI/CD), Crossplane, Terraform, Git}
+  \resumeItem{Soft Skills}{: Detail Oriented, Financial Technology, Market Technology, Business Requirements, Software Sales, Flexible, Team Oriented, Analytical, Systems Thinking, Customer Success}
+  %\resumeItem{AI/Analytics}{: Tensorflow, Pytorch, Grafana, Graylog}
+\resumeItemListEnd
+
+% Experience
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Nasdaq Inc.}{Toronto, ON}
+    {Software Engineer, Market Technology}{September 2021 - August 2023}
+    \resumeItemListStart
+      \resumeItem{}
+      {Wrote high-efficiency, high-throughput, low-memory impact Java Spring Boot microservices.}
+      \resumeItem{}
+      {Worked with industry-standard FIX Financial Protocol and other Nasdaq proprietary protocols.}
+      \resumeItem{}
+      {Collaborated with business analysts and specification writers to develop key business functionality.}
+      \resumeItem{}
+      {Worked with cross-team domain experts to debug and verify existing code paths, business functionality, and perform long term planning and forecasting.}
+      \resumeItem{}
+      {Increased code test coverage to 85\% and improved integration test framework to increase reliability .}
+      \resumeItem{}
+      {Implemented Tailor Made Combinations and other key financial business logic related to the FIX protocol.}
+      \resumeItem{}
+      {Handled customer issues from worldwide stock exchanges.}
+      \resumeItem{}
+      {Influenced the design of 24x7 and Snapshot Gateway Functionality and implemented in various gateways.}
+      \resumeItem{}
+      {Participated in SCRUM meetings, planning, and all aspects of the Software Development Lifecycle (SDLC) within an Agile team.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+  {Praizl Inc. - DMZ 2021}{Toronto, ON}
+  {Full-Stack Software Engineer}{July 2020 - June 2021}
+    \resumeItemListStart
+      \resumeItem{}
+      {Contributed to startup from its inception to the DMZ Class of 2021.}
+      \resumeItem{}
+      {Engineered an ML recommendations engine using multiple datasets to match users to their dream homes accurately. (Developed Business's core tech)}
+      \resumeItem{}
+      {Provided business intelligence and user management through REST APIs using Flask and Dropwizard.}
+      \resumeItem{}
+      {Built an analytics framework on top of a MongoDB datalake used to process large amounts of data.}
+      \resumeItem{}
+      {Reduced API response time to users by 90\% by implementing an asynchronous job scheduler and in-memory caching layer using Redis.}
+      \resumeItem{}
+      {Performed infrastructure-level DevOps work with containerized deployments on AWS EC2.}
+      \resumeItem{}
+      {Achieved 80\% unit test coverage for critical algorithms.}
+      \resumeItem{}
+      {Collaborated in Agile teams using the Scrum methodology under the supervision of ex-Salesforce, ex-Uber, ex-Microsoft software engineers.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% Education
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {University of Ottawa}{Ottawa, ON}
+    {BSc. Honours Computer Science}{September 2017 - Current}
+    \resumeItemListStart
+      \resumeItem{Notable Courses}{Data Science, Data Structures and Algorithms, Requirements Engineering, Software Engineering, Statistics, Formal Languages, Technical Report Writing}
+      \resumeItem{Clubs/Projects}{UOttawa CSME (Engineering Association), UOttawa Dota 2 B Team Captain, MSA Contributer}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% Projects
+%\section{Projects}
+%\resumeSubHeadingListStart
+%  \resumeSubheading
+%  {Uottahack 4}{Ottawa, ON}
+%  {Team Winner - Sanitation Station Companion}{February 2021}
+%    \resumeItemListStart
+%      \resumeItem{}
+%      {Winner of Best Hardware Hack}
+%      \resumeItem{}
+%      {Deployed AI computer vision application using Raspberry Pi, GKS, and Google Vision API}
+%      \resumeItem{}
+%      {https://devpost.com/software/sanitation-station-companion}
+%    \resumeItemListEnd
+%    
+%  \resumeSubheading
+%  {Ryerson DMZ Climate Hack-To-Action Hackathon}{Toronto, ON}
+%  {Team Hackathon Competitor - 3rd Place}{May 2016}
+%    \resumeItemListStart
+%      \resumeItem{}
+%      {Developed a user-focused carbon credit Android application with a SQL backend within 24 hours.}
+%    \resumeItemListEnd
+%\resumeSubHeadingListEnd
+
+%---------HOMELAB--------
+%\section{Homelab}
+%\resumeSubHeadingListStart
+%  \resumeSubheading
+%  {I Made a Thing}{It's a Cool Thing}{A Rad Thing}{YO}
+%    \resumeItemListStart
+%      \resumeItem{}
+%      {Bullet point 1 about your Homelab setup or projects.}
+%      \resumeItem{}
+%      {Bullet point 2 about your Homelab setup or projects.}
+%      % Add more bullet points as needed
+%    \resumeItemListEnd
+%\resumeSubHeadingListEnd
+\end{document}
+
+
