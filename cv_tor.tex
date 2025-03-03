@@ -83,13 +83,15 @@
 % Programming Skills
 \section{Programming Skills}
 \resumeItemListStart
-  \resumeItem{Languages/Databases}{: Python, Java, C\#, Golang, MongoDB, PostgresSQL, InfluxDB, Redis}
-  \resumeItem{APIs/Tools}{: Protobuf/gRPC, Kafka, RabbitMQ, Dapr, WebRTC, Helm, YAML, JSON, Stripe, Rook Ceph, S3, VCluster}
-  \resumeItem{Frameworks}{: Spring-Boot, FastAPI, Flask, Django, Maven, Faust, Echo, SQLC}
-  \resumeItem{IDE/OS}{: Intellij, NeoVIM, Pycharm, VS Code, RHEL 7, RHEL 8, CentOS (Rocky Linux), Ubuntu, Linux Mint, Manjaro, Proxmox}
-  \resumeItem{Dev Ops}{: Kubernetes, AWS, GKS, K3s, Gitlab, Ansible, Docker, Gitlab Pipelines (CI/CD), Github Actions, Crossplane, Terraform, Git, Prometheus, Grafana}
+  \resumeItem{Languages/Databases}{: Python, Java, C\#, Golang, Kotlin, MongoDB, PostgresSQL, InfluxDB, Redis}
+  \resumeItem{APIs/Tools}{: Protobuf/gRPC, Kafka, RabbitMQ, Dapr, WebRTC, Helm, YAML, JSON, Stripe, Rook Ceph, S3, Git}
+  \resumeItem{Frameworks}{: Spring Boot MVC, Dropwizard, FastAPI, Flask, Django, Maven, Gradle, Faust, Echo, Gin, SQLC, Pydantic}
+  \resumeItem{IDE/OS}{: Intellij, NeoVIM, Pycharm, VS Code, RHEL 7, RHEL 8, CentOS (Rocky Linux), Ubuntu, Linux Mint, Manjaro, Proxmox, Talos Linux, Kairos}
+  \resumeItem{Dev Ops}{: ArgoCD , K3s, Gitlab, Ansible, Docker, Gitlab Pipelines (CI/CD), Github Actions, Crossplane, Terraform, Prometheus}
+  \resumeItem{Cloud}{: Kubernetes, AWS (Amazon Kubernetes Service), GKS (Google Kubernetes Service), AKS (Azure Kubernetes Service), Crossplane, VCluster, Kubevirt, Google Cloud Run, AWS Lambda, OpenFunctions}
   \resumeItem{Soft Skills}{: Detail Oriented, Financial Technology, Market Technology, Business Requirements, Inter and intra team communication, Flexible, Team Oriented, Analytical, Systems Thinking, Customer Success}
   \resumeItem{AI/Analytics}{: Tensorflow, Pytorch, Grafana, Graylog, Datadog, Streamlit (Python)}
+  \resumeItem{Cyber Security/QA Testing}{: Wireshark, K6, Locust, Metasploit, Hashcat, Aircrack-ng, Kube-Hunter, Pytest, KubeTest, Ginkgo, JUnit, J2EE}
 \resumeItemListEnd
 
 % Experience
@@ -113,6 +115,12 @@
       {Handled customer issues and requests from worldwide stock exchanges.}
       \resumeItem{}
       {Influenced the design of 24x7 and Snapshot Gateway Functionality and implemented in various gateways.}
+      \resumeItem{}
+      {Used Wireshark and performed penetration testing, as well as white-box and black-box testing and packet injection testing at the TCP level to ensure all code paths designed could not be exploited. Especially during high traffic scenarios.}
+      \resumeItem{}
+      {Performed load testing and integration testing to ensure compliance and limit exploits (timing or otherwise) on the system.}
+      \resumeItem{}
+      {Performed chaos testing to ensure resilience and uptime of system, as well as assess self healing capabilities.}
       \resumeItem{}
       {Participated in SCRUM meetings, planning, and all aspects of the Software Development Lifecycle (SDLC) within an Agile team.}
     \resumeItemListEnd
@@ -138,6 +146,23 @@
       \resumeItem{}
       {Collaborated in Agile teams using the Scrum methodology under the supervision of ex-Salesforce, ex-Uber, ex-Microsoft software engineers.}
     \resumeItemListEnd
+
+  \resumeSubheading
+  {Founderbyte}{Toronto, ON}
+  {Full-Stack Software Engineer}{January 2021 - June 2021}
+    \resumeItemListStart
+      \resumeItem{}
+      {Minimized deployment costs by creating an event driven mail service using AWS Lambda and Sendgrid}
+      \resumeItem{}
+      {Provided business intelligence and user management through REST APIs using Flask and Dropwizard.}
+      \resumeItem{}
+      {Hosted client websites on DigitalOcean with custom mail service. Founderbyte.com, aquaries.co}
+      \resumeItem{}
+      {Built online e-commerce store with scheduling system}
+      \resumeItem{}
+      {Integrated scheduling widgets into existing website platforms.}
+    \resumeItemListEnd
+
 \resumeSubHeadingListEnd
 
 % Education
@@ -182,12 +207,12 @@
     \resumeItemListEnd
   \resumeSubheading
   {Open Source Contribution}{Toronto, ON}
-  {OpenFunctions}{June 2024}
+  {OpenFunction}{June 2024}
     \resumeItemListStart
       \resumeItem{}
       {Exposed lower level APIs for business use cases}
       \resumeItem{}
-      {Improved documentation for both developers and consumers.}
+      {Improved documentation for both developers and project consumers}
     \resumeItemListEnd
   \resumeSubheading
   {Open Source Contribution}{Toronto, ON}
@@ -205,11 +230,15 @@
       \resumeItem{}
       {Built and manage my own private cloud on Kubernetes.}
       \resumeItem{}
-      {Evolved from Proxmox to entirely GitOps based GPU enabled private cloud.}
+      {Evolved from Proxmox to entirely GitOps (using ArgoCD) based GPU enabled private cloud.}
       \resumeItem{}
-      {Cloud like experience with public IP and cloud storage configured with Rook Ceph.}
+      {Cloud like experience with public IP LoadBalancer provisioning (chisel operator) and cloud storage configured with Rook Ceph.}
       \resumeItem{}
       {Built my own PaaS using VCluster, and several operators, including a DBaaS, KaaS, and SaaS}
+      \resumeItem{}
+      {Nested virtualization and K8s-in-K8s with managed Control Plane using Kubevirt, CAPI (Cluster API), Kamaji}
+      \resumeItem{}
+      {Functions as a Service provided by OpenFunction}
     \resumeItemListEnd
   \resumeSubheading
   {Estatelamp}{Toronto, ON}
